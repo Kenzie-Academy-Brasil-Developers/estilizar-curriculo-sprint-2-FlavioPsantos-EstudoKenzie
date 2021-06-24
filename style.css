@@ -59,13 +59,14 @@ hr[class="divisor"]{
 }
 #name{
 	float: left;
+	font-size: 40px;
 }
 #name h1{
 	float: left;
 	margin: auto;
 }
 #name h2{
-	font-size: 40px;
+	font-size: 30px;
 	margin: 0;
 	font-weight: lighter;
 }
@@ -73,7 +74,7 @@ hr[class="divisor"]{
 
 #contactDetails {
 	float: right;
-	font-size: 30px;
+	font-size: 25px;
 	margin-right: 5%;
 	color:#181818;
 }
