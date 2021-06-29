@@ -1,27 +1,115 @@
 .clear {
-	clear: both;
+    clear: both;
 }
 
-#headshot {
-	width: 12.5%;
-	float: left;
-	margin-right: 30px;
+body {
+    font-family: "lato", Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    margin: 0 auto;
+    width: 960px;
+    background-color: #f3f3f3;
+    border-collapse: collapse;
 }
 
-#name {
-	float: left;
+#top {
+    padding: 5%;
+    text-align: justify;
+    width: 60%;
+}
+
+h1 {
+    font-family: "Rokkitt", "Helvetica", "Arial", "sans-serif";
+    color: #444444;
+}
+
+#contactDetails ul li a {
+    text-decoration: none;
+    color: #181818;
+}
+
+#contactDetails ul li {
+    list-style: none;
 }
 
 #contactDetails {
-	float: right;
+    padding-bottom: 50px;
+    font-size: 1.0em;
+    font-weight: 450;
+}
+
+.clear {
+    border-bottom: 1px solid #dedede;
+}
+
+.clearPrimeira {
+    clear: both;
+    border-bottom: 2px solid #cf8a05;
+}
+
+#headshot {
+    width: 12.5%;
+    float: left;
+    margin-right: 25px;
+}
+
+img {
+    margin-top: 8%;
+    border-radius: 50%;
+    width: 90%;
+    min-width: 60px;
+}
+
+#name h2 {
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+#name h1 {
+    font-size: 3.0rem;
+    margin: auto;
+}
+
+#name {
+    float: left;
+    line-height: 25px;
+    padding-top: 20px;
+}
+
+#contactDetails {
+    float: right;
+}
+
+.subDetails {
+    font-style: italic;
 }
 
 .sectionTitle {
-	float: left;
-	width: 25%;
+    float: left;
+    width: 25%;
+    font-style: italic;
 }
 
 .sectionContent {
-	float: right;
-	width: 72.5%;
+    float: right;
+    width: 72.5%;
+}
+
+.sectionTitle h1 {
+    color: #cf8a05;
+    font-weight: lighter;
+}
+
+.sectionContent p:first-child {
+    color: #181818;
+}
+
+.sectionContent h2,
+.sectionContent h1 {
+    color: #444444;
+}
+
+.keySkills {
+    column-count: 3;
+    list-style: none;
 }
